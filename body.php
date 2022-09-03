@@ -291,7 +291,7 @@
     <section class="ultimos-proyectos py-1">
         <div  class="container">
           <div class="faq-container">
-            <h2 >Proyecto Destacado1</h2>
+            <h2 >Proyecto Destacado</h2>
             <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
             </div>
         
