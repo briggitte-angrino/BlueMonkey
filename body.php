@@ -291,8 +291,8 @@
     <section class="ultimos-proyectos py-1">
         <div  class="container">
           <div class="faq-container">
-            <h2 >Proyecto Destacado</h2>
-            <p class="datop">El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
+            <h2 >Proyecto Destacado1</h2>
+            <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
             </div>
         
             <div class="owl-carousel slide-one-item">
@@ -303,17 +303,17 @@
                 </div>
                 <div class="tex">
                     <h3>Gestión de Productos</h3>
-                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
+                    <p>&ldquo; Permite gestionar el invetario de los productos, sus precios y estados, ayudando con el control de las entradas y salidas de tu negocio. &rdquo;</p>
                 </div>
            </div>
              <!-- .item -->
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
-                    <img class="imag" src="images/carruseldeimagenes.png" alt="">
+                    <img class="imag" src="images/gestiondeusuarios.png" alt="">
                 </div>
                 <div class="tex">
-                    <h3>Carrusel de Imagenes</h3>
-                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
+                    <h3>Gestión de Usuarios</h3>
+                    <p>&ldquo; Permite administrar los usuarios y roles del sistema, en el cual posibilita la creación modificación y eliminación de dichos usuarios y roles.&rdquo;</p>
                 </div>
            </div>  <!-- .item -->
            
@@ -323,7 +323,7 @@
                 </div>
                 <div class="tex">
                     <h3>Gestión de Pedidos Enviados</h3>
-                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
+                    <p>&ldquo; Es un tablero que permite realizar el seguimiento a cada uno de los productos enviados, desde el método de envio hasta la forma de pago, además permite realizar el rastreo del paquete con la trasportadora.&rdquo;</p>
                 </div>
            </div>  <!-- .item -->
 
@@ -333,7 +333,17 @@
                 </div>
                 <div class="tex">
                     <h3>Gestión de Catálogo de Productos</h3>
-                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
+                    <p>&ldquo; Permite exponer los productos que se cargan al portal, con el objetivo de visualizar de primera mano cómo se reflejaran los productos en el Marketplace.&rdquo;</p>
+                </div>
+           </div>  <!-- .item -->
+
+           <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                <img class="imag" src="images/controldefcaturas.png" alt="">
+                </div>
+                <div class="tex">
+                    <h3>Gestión de Facturación</h3>
+                    <p>&ldquo; Permite generar la facturación de los pedidos despachados y de las cotizaciones que puedan realizar los clientes.&rdquo;</p>
                 </div>
            </div>  <!-- .item -->
 
