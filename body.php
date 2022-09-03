@@ -302,7 +302,7 @@
                 <img class="imag" src="./images/controldeinventario.png" alt="">
                 </div>
                 <div class="tex">
-                    <h3>Gestion de Productos</h3>
+                    <h3>Gestión de Productos</h3>
                     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
                 </div>
            </div>
@@ -322,7 +322,7 @@
                     <img class="imag" src="images/gestionpedidoenviados.png" alt="">
                 </div>
                 <div class="tex">
-                    <h3>Gestion de Pedidos Enviados</h3>
+                    <h3>Gestión de Pedidos Enviados</h3>
                     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
                 </div>
            </div>  <!-- .item -->
@@ -332,7 +332,7 @@
                 <img class="imag" src="images/catalogo.png" alt="">
                 </div>
                 <div class="tex">
-                    <h3>Gestion de Catalogo de Productos</h3>
+                    <h3>Gestión de Catálogo de Productos</h3>
                     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam!  incidunt!&rdquo;</p>
                 </div>
            </div>  <!-- .item -->
