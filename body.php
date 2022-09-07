@@ -291,7 +291,7 @@
     <section class="ultimos-proyectos py-1">
         <div  class="container">
           <div class="faq-container">
-            <h2 >Proyecto Destacado</h2>
+            <h2 >Mandril Inventarios</h2>
             <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
             </div>
         
@@ -302,8 +302,11 @@
                 <img class="imag" src="./images/controldeinventario.png" alt="">
                 </div>
                 <div class="tex">
+                    <div class="tex2">
                     <h3>Gestión de Productos</h3>
                     <p>&ldquo; Permite gestionar el invetario de los productos, sus precios y estados, ayudando con el control de las entradas y salidas de tu negocio. &rdquo;</p>
+                    </div>
+                    
                 </div>
            </div>
              <!-- .item -->
@@ -312,9 +315,11 @@
                     <img class="imag" src="images/gestiondeusuarios.png" alt="">
                 </div>
                 <div class="tex">
+                <div class="tex2">
                     <h3>Gestión de Usuarios</h3>
                     <p>&ldquo; Permite administrar los usuarios y roles del sistema, en el cual posibilita la creación modificación y eliminación de dichos usuarios y roles.&rdquo;</p>
                 </div>
+           </div>
            </div>  <!-- .item -->
            
            <div class="d-md-flex testimony-29101 align-items-stretch">
@@ -322,9 +327,11 @@
                     <img class="imag" src="images/gestionpedidoenviados.png" alt="">
                 </div>
                 <div class="tex">
+                <div class="tex2">
                     <h3>Gestión de Pedidos Enviados</h3>
                     <p>&ldquo; Es un tablero que permite realizar el seguimiento a cada uno de los productos enviados, desde el método de envio hasta la forma de pago, además permite realizar el rastreo del paquete con la trasportadora.&rdquo;</p>
                 </div>
+           </div>
            </div>  <!-- .item -->
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
@@ -332,19 +339,96 @@
                 <img class="imag" src="images/catalogo.png" alt="">
                 </div>
                 <div class="tex">
+                <div class="tex2">
                     <h3>Gestión de Catálogo de Productos</h3>
                     <p>&ldquo; Permite exponer los productos que se cargan al portal, con el objetivo de visualizar de primera mano cómo se reflejaran los productos en el Marketplace.&rdquo;</p>
                 </div>
-           </div>  <!-- .item -->
+           </div> 
+           </div> <!-- .item -->
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
                 <img class="imag" src="images/controldefcaturas.png" alt="">
                 </div>
                 <div class="tex">
+                <div class="tex2">
                     <h3>Gestión de Facturación</h3>
                     <p>&ldquo; Permite generar la facturación de los pedidos despachados y de las cotizaciones que puedan realizar los clientes.&rdquo;</p>
                 </div>
+           </div> 
+           </div> <!-- .item -->
+
+     
+        </div>
+    </section>
+
+    <section class="ultimos-proyectos py-1">
+        <div  class="container">
+          <div class="faq-container">
+            <h2 >Gorila Marcket</h2>
+            <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
+            </div>
+        
+            <div class="owl-carousel slide-one-item">
+
+            <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                <img class="imag" src="./images/market1.png" alt="">
+                </div>
+                <div class="tex">
+                <div class="tex2">
+                    <h3>Gestión de Productos</h3>
+                    <p>&ldquo; Permite gestionar el invetario de los productos, sus precios y estados, ayudando con el control de las entradas y salidas de tu negocio. &rdquo;</p>
+                </div>
+           </div>
+           </div>
+             <!-- .item -->
+           <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                    <img class="imag" src="images/market2.png" alt="">
+                </div>
+                <div class="tex">
+                <div class="tex2">
+                    <h3>Gestión de Usuarios</h3>
+                    <p>&ldquo; Permite administrar los usuarios y roles del sistema, en el cual posibilita la creación modificación y eliminación de dichos usuarios y roles.&rdquo;</p>
+                </div>
+           </div> 
+           </div> <!-- .item -->
+           
+           <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                    <img class="imag" src="images/market3.png" alt="">
+                </div>
+                <div class="tex">
+                <div class="tex2">
+                    <h3>Gestión de Pedidos Enviados</h3>
+                    <p>&ldquo; Es un tablero que permite realizar el seguimiento a cada uno de los productos enviados, desde el método de envio hasta la forma de pago, además permite realizar el rastreo del paquete con la trasportadora.&rdquo;</p>
+                </div>
+           </div>
+           </div>  <!-- .item -->
+
+           <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                <img class="imag" src="images/market4.png" alt="">
+                </div>
+                <div class="tex">
+                <div class="tex2">
+                    <h3>Gestión de Catálogo de Productos</h3>
+                    <p>&ldquo; Permite exponer los productos que se cargan al portal, con el objetivo de visualizar de primera mano cómo se reflejaran los productos en el Marketplace.&rdquo;</p>
+                </div>
+           </div>
+           </div>  <!-- .item -->
+
+           <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="boxx" >
+                <img class="imag" src="images/market5.png" alt="">
+                </div>
+                <div class="tex">
+                <div class="tex2">
+                    <h3>Gestión de Facturación</h3>
+                    <p>&ldquo; Permite generar la facturación de los pedidos despachados y de las cotizaciones que puedan realizar los clientes.&rdquo;</p>
+                </div>
+           </div>
            </div>  <!-- .item -->
 
      

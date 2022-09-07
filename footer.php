@@ -14,38 +14,9 @@
 
     <a data-scroll class="ir-arriba" href="#encabezado"><i class="fa  fa-arrow-circle-up" aria-hidden="true"> </i> </a>
 
-    <!-- Carga de archivos  JS -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            nav: true,
-            autoWidth: false,
-            navText: ['<i class="fa fa-arrow-circle-left" title="Anterior"></i>', '<i class="fa  fa-arrow-circle-right" title="Siguiente"></i>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                500: {
-                    items: 2,
-                    margin: 20
-                },
-                800: {
-                    items: 3,
-                    margin: 20
-                },
-                1000: {
-                    items: 4,
-                    margin: 20
-                }
-            }
-        })
-
-    </script>
    <script src='./js/index.js'></script>
     <script src="js/wow.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
@@ -54,10 +25,8 @@
     <script src="js/questions.js"></script> 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
 
 
 </body>

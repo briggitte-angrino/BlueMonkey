@@ -124,17 +124,6 @@ body {
       -webkit-transition: all .5s ease;
               transition: all .5s ease; }
 
-/*.encabezado {
-  width: 100%;
-  height: 120px;
-  background-color: transparent;
-  background-image: linear-gradient(180deg, #000000 20%, #00000000 100%);
-  padding: 2rem 0;
-  -webkit-transition: all .5s ease;
-          transition: all .5s ease; }*/
-
-
-
 .encabezado .container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -156,9 +145,10 @@ body {
   
 }
 @media only screen and (max-width:767px){
-  .encabezado .logo img{
+  .encabezado .logo{
     padding-top: 1em;
     width: 180px;
+    font-size: 180%;
   }
 
   .slider-text{
@@ -170,13 +160,21 @@ body {
     width: 380px;
   }
   
-  .boton {
-    padding: 10px;
-    margin-left: 140px;
+  .buton {
+    margin-top: 10px;
+    margin-left: 120px;
   }
   .agencia img{
     width: 0px;
   }
+
+  .encabezado {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000 20%, #00000056 100%);
+    color: #fff;
+    padding: .5rem 0;
+    -webkit-transition: all .5s ease;
+            transition: all .5s ease; }
 }
 @media only screen and (min-width: 768px) and (max-width: 1180px){
   .encabezado .logo img{
@@ -194,7 +192,6 @@ body {
 
 
 /*Estilos para el boton: buscar y menu*/
-.boton-buscar,
 .boton-menu {
   border: 0;
   font-size: 2rem;
@@ -204,58 +201,15 @@ body {
   color: #fff;
  }
 
-.boton-buscar:focus,
 .boton-menu:focus {
   outline: 0; }
-
-.boton-buscar {
-  margin-left: auto;
-  margin-right: 10rem; }
-
-/*Estilos bloque buscar*/
-#bloque-buscar {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 100%;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%; }
-
-.contenedor-bloque-buscar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 3rem;
-  margin: 1rem 0; }
-
-.contenedor-bloque-buscar input[type="text"] {
-  border: 0;
-  border-radius: 5px 0 0 5px;
-  padding: 1rem;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto; }
-
-.contenedor-bloque-buscar input[type="submit"] {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  border: 0;
-  border-radius: 0 5px 5px 0;
-  background: #12AFAF;
-  color: #fff;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  padding: 0 1rem; }
-
+  capanosotros
 #menu-principal {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 100%;
       -ms-flex: 1 1 100%;
-          flex: 1 1 100%; }
+          flex: 1 1 100%; 
+  }
 
 #menu-principal ul {
   padding: 0;
@@ -269,7 +223,7 @@ body {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  border-top: 1px solid #8c8888;
+  border-bottom: 1px solid #b7b4b4;
   text-decoration: none; }
 
 #menu-principal ul a:hover,
@@ -478,13 +432,22 @@ SECCION ├ÜLTIMOS PROYECTOS
       width: 70%;
       background-size: cover;
       background-position: center center; 
+      
       }
   
   .testimony-29101 .tex {
     width: 40%;
     padding: 60px 1rem;
-    background: #f8f9fa; }
+    background: #f8f9fa;
+    
+ }
   
+ .testimony-29101 .tex2{
+  padding: 3%;
+  top: 3%;
+  background-color: rgba(255, 255, 255, 0.684);
+  box-shadow: 6px 4px 15px rgba(0, 0, 0, 0.64);
+}
   
     .testimony-29101 .tex p {
       text-align: center;
@@ -509,7 +472,7 @@ SECCION ├ÜLTIMOS PROYECTOS
       } 
       .testimony-29101 .tex{
           width:70%;
-          padding: 10% 5% 0;
+          padding: 5% 5% 0;
      
         }
         .slide-one-item .owl-dots{
@@ -519,9 +482,9 @@ SECCION ├ÜLTIMOS PROYECTOS
           height:210px;
           width:auto; }  
 
-          .testimony-29101 .tex p {
-           
-          } 
+          .testimony-29101 .tex2{
+            margin-left: -8%;
+          }
       }
   
   
@@ -846,14 +809,10 @@ ESTILOS PAGINA NOSOTROS
   background-image: url("../images/capa1verde2.png");
   background-position: center center;
   background-repeat: no-repeat;
-  
   background-size:cover;
   color: #000;
   height:100vh;
 }
-
-
-
 
 .contentido {
   margin-right: -210px;
@@ -908,7 +867,7 @@ ESTILOS PAGINA NOSOTROS
   .contentido p {
     font-size: 15px;
    font-weight: 600;
-   padding: 0% 10% 0%;
+   padding: 0% 20% 0%;
   }
  
 }
@@ -934,17 +893,23 @@ ESTILOS PAGINA SERVICIOS
 --------------------------------------------*/
 .conta{
  background-image: url(../images/capa1.png);
- background-size: cover;
- background-repeat:no-repeat;
  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 130% 140%;
+  color: #000;
+  height: 100vh;
+
+
 }
 
 .texto{
-  margin-top: 16%;
+  margin-top: 10%;
   margin-left: 33%;
+  color: #000;
  }
  .form{
-  margin-top: 3%;
+  color: #000;
+  margin-top: 2%;
   margin-bottom: 5%;
   background-color: rgba(255, 255, 255, 0.684);
   box-shadow: 6px 4px 15px rgba(0, 0, 0, 0.64);
@@ -974,12 +939,12 @@ ESTILOS PAGINA SERVICIOS
           transform-style: preserve-3d; }
 
  .forcontacto{
+  color: #000;
   width: 50%;
-     margin-top: 15%;
-    padding: 2%;
-     margin-bottom: 10%;
+  margin-top: 10%;
+  padding: 3%;
      margin-left: 40%;
-    background-color: rgba(255, 255, 255, 0.684);
+   
     box-shadow: 6px 4px 15px rgba(0, 0, 0, 0.64);
            }
  @media only screen and (max-width:767px){
@@ -1002,6 +967,17 @@ ESTILOS PAGINA SERVICIOS
 .noso {
   padding-top: 20%;
 }
+
+.conta{
+  background-image: url(../images/capa1.png);
+  background-position:center center;
+   background-repeat: no-repeat;
+   background-size: 400% 180%;
+   color: #000;
+   height: 100vh;
+ 
+ 
+ }
 }  
    @media only screen and (min-width: 768px) and (max-width: 1180px){
  .forcontacto{
