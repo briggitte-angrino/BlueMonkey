@@ -43,7 +43,19 @@ if($servicio==1){
 <?php 
 }if($servicio==3){
 ?>
-<p>llego 3<p>
+<br>
+<br>
+        <div class="texto">
+                <h1 class="font-weight-bold">MARKETING Y PUBLICIDAD</h1>
+                <br>
+                <p>En King Monkey Technologies creamos la publicidad que tu necesitas, nos
+                    especializamos en crear la mejor campaña por el menor precio, tanto en redes sociales como 
+                    Facebook, Instagram, TikTok, Kwaii, Wathsapp, así como publicidad directa en tu zona, toda la 
+                    visibilidad posible para que tu negocio logre mas visitas tanto en el mundo real como en el virtual y 
+                    así logres aumentar las ventas de tu negocio.
+                 </p>
+                <br>
+        </div>	       
 <?php 
 }
 ?>
@@ -61,7 +73,7 @@ if($servicio==1){
                             <label for="nombre" class="col-md-2 col-form-label font-weight-bold ">Nombre</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo" required>
                             </div>
                         </div>
 
@@ -70,7 +82,15 @@ if($servicio==1){
                             <label for="email" class="col-md-2 col-form-label font-weight-bold">Email</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email">
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label font-weight-bold">Teléfono</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="number" id="telephone" name="telephone" placeholder="Ingrese su teléfono" data-toggle="tooltip" data-placement="top" title="Ingrese su teléfono" required>
                             </div>
                         </div>
 
@@ -98,7 +118,10 @@ if($servicio==1){
         </div>
     </main>
 
-
+<br>
+<br>
+<br>
+<br>
     <?php
 require_once("footer.php");
 

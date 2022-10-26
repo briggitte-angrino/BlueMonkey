@@ -75,7 +75,6 @@ body {
       .link{
         position: absolute;
         display: block;
-      
           z-index: 1;
       }
      .btn{
@@ -141,9 +140,9 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: #fff;
   font-weight: bold;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
+
 @media only screen and (max-width:767px){
   .encabezado .logo{
     padding-top: 1em;
@@ -189,8 +188,6 @@ body {
   }
   
 }
-
-
 /*Estilos para el boton: buscar y menu*/
 .boton-menu {
   border: 0;
@@ -292,7 +289,7 @@ body {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 /*-----------------------------
-SECCION AGENCIA
+Sección de quienes somos
 ------------------------------*/
 
 .agencia {
@@ -421,8 +418,6 @@ SECCION SERVICIOS
 /*---------------------------------
 SECCION ├ÜLTIMOS PROYECTOS
 ------------------------------------*/
-
-
 
   .testimony-29101 {
     width: 1100px;
@@ -609,7 +604,7 @@ SECCION Licencias
 .price__name{
   color: var(--color-plan);
   margin-bottom: 15px;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 .price__price{
@@ -753,10 +748,16 @@ details[open] summary::before {
 SECCION PIE DE PAGINA
 -----------------------------------------*/
 .piedepagina {
-  background: #111111;
-  color: #fff;
+  background-color: black;
   text-align: center;
-  font-size: .9rem; }
+  position:static;
+        font-family: sans-serif;
+        color: whitesmoke;
+        width: 100%;
+        bottom: 0;
+        
+  /* font-size: .9rem;  */
+}
 
 .piedepagina .redes-sociales {
   display: -webkit-box;
@@ -806,11 +807,11 @@ ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
 .capanosotros{
   background-image: url("../images/capa1verde2.png");
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: 160% 185%; 
   color: #000;
-  height:100vh;
+  height: 100vh;
 }
 
 .contentido {
@@ -891,10 +892,10 @@ ESTILOS PAGINA NOSOTROS
 ESTILOS PAGINA SERVICIOS
 --------------------------------------------*/
 .conta{
- background-image: url(../images/capa1.png);
- background-position: center center;
+ background-image: url(../images/Fondocapa1.png);
+ background-position: left center;
   background-repeat: no-repeat;
-  background-size: 130% 140%;
+  background-size: 160% 185%; 
   color: #000;
   height: 100vh;
 
@@ -945,6 +946,7 @@ ESTILOS PAGINA SERVICIOS
      margin-left: 40%;
    
     box-shadow: 6px 4px 15px rgba(0, 0, 0, 0.64);
+    
            }
  @media only screen and (max-width:767px){
  .forcontacto{
@@ -967,16 +969,7 @@ ESTILOS PAGINA SERVICIOS
   padding-top: 20%;
 }
 
-.conta{
-  background-image: url(../images/capa1.png);
-  background-position:center center;
-   background-repeat: no-repeat;
-   background-size: 400% 180%;
-   color: #000;
-   height: 100vh;
- 
- 
- }
+
 }  
    @media only screen and (min-width: 768px) and (max-width: 1180px){
  .forcontacto{

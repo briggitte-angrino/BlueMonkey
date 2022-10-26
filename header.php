@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Blue Monkey</title>
-    <link rel="shortcut icon" href="./images/logo6.png" type="image/x-icon">
+    <title>king Monkey</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,8 +29,8 @@
         <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
             <div class="container">
                 <a href="index.html" >
-                   <!--<img src="./images/Logosi.png" alt="Logo del sitio">-->
-                   <h4 class="logo">Blue Monkey</h4>
+                  <img class ="logo" src="./images/logo1.1.png" alt="Logo del sitio" width="150"> 
+                   
                 </a>
                 <br>
                 

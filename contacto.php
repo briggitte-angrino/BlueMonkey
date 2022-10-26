@@ -11,13 +11,13 @@ require_once("header.php");
                     <h2 class="m-b-6 font-weight-bold">Formulario de contacto</h2>
                 <br>
 
-                    <form action="#">
+                    <form action="mensaje.php" method="POST">
 
                         <div class="form-group row">
                             <label for="nombre" class="col-md-2 col-form-label font-weight-bold ">Nombre</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo" required>
                             </div>
                         </div>
 
@@ -26,7 +26,15 @@ require_once("header.php");
                             <label for="email" class="col-md-2 col-form-label font-weight-bold">Email</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email">
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label font-weight-bold">Teléfono</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="number" id="telephone" name="telephone" placeholder="Ingrese su teléfono" data-toggle="tooltip" data-placement="top" title="Ingrese su teléfono" required>
                             </div>
                         </div>
 
@@ -55,7 +63,8 @@ require_once("header.php");
         </div>
     </main>
 
-    
+    <br>
+    <br>
     <?php
 require_once("footer.php");
 

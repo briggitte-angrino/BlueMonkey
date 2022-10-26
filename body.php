@@ -6,7 +6,7 @@
                     <div class="image-slider rellax" style='background-image: url(./images/Fondo1.png)'></div>
                     <div class="image-slider rellax" style='background-image: url(./images/capa2.png)'></div>
                     <div class="text-slider rellax" data-rellax-speed="-10">
-                        <h1   class="slider-text">Blue&nbsp;Monkey</h1>
+                        <h1   class="slider-text">King&nbsp;Monkey</h1>
                     </div>
                     <div class="image-slider rellax" style='background-image: url(./images/capa1.png)'></div>
                    
@@ -14,9 +14,9 @@
             </div>
 
         </div>
-        
 
     </section>
+<!-- Sección de quienes somos  -->
     <section class="agencia py-1" id="agencia">
 
         <div id="agen" class="container">
@@ -26,7 +26,7 @@
 
                 <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
                     <br>
-                    <h1 class="h2 text-xs-center text-md-left font-weight-bold">Blue Monkey</h1>
+                    <h1 class="h2 text-xs-center text-md-left font-weight-bold">King Monkey</h1>
                     <h3 class="h3 text-xs-center text-md-left font-weight-bold"><span style="color: rgb(231, 231, 10);">Tech</span><span style="color: rgb(0, 47, 255);">nolo</span><span style="color: rgb(255, 2, 2);">gies</span></h3>
                     <p>Somos Colombianos  orgullosos de su patria, empresarios y emprendedores que trabajan para ayudar a otros a crecer a nivel tecnológico y mejorar sus emprendimientos. </p>
                     <p>Desarrollamos sueños y ejecutamos soluciones efectivas para su negocio, renovandonos constantemente para mejorar la calidad de nuestros productos y servicios .</p>
@@ -34,22 +34,21 @@
                 </div>
                 <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
                    
-                    <img src="images/logo3.png" alt="La agencia">
+                    <img style='filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));' src="images/logo3.png" alt="La agencia">
                 </div>
             </div>
         </div>
-<br>
+        <br>
     </section>
+<!-- Sección de Porque somos tu mejor elección  -->
     <section class="tu-mejor-eleccion py-1">
         <div id="agen" class="container">
-            
-
             <h2 class="h3 text-xs-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
             <p class="text-xs-center">
                 Desarrollo web y Apps para empresas y profesionales
             </p>
-<br>
-<br>
+            <br>
+            <br>
             <div class="row">
                 <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-left">
 
@@ -92,8 +91,6 @@
                 </ul>
             </div>
         </div>
-
-
         <div class="overlay" id="over">
 			<div class="popup" id="pop">
                 <a href="#" id="btn-cerr-pop" class="btn-cerrar-popup"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
@@ -136,7 +133,6 @@
                 <p >Hola, ¿sabías que nuestra empresa te ofrece muchas funciones que puedes
                     personalizar a tu gusto contando con la asesoría de personal técnico altamente
                     entrenado y sin ningún costo adicional?, pregunta términos y condiciones aquí.</p>
-                
 			</div>
 		</div>
 
@@ -152,11 +148,12 @@
                     ingenieros que llevarán a cabo tus requisitos y se adaptarán rápidamente a tus
                     necesidades</p>
             </div>
-			</div>
 		</div>
-    
+		</div>
     </section>
-   
+
+ <!-- Sección de Nuestros Servicios  --> 
+
     <main class="servicios py-1">
         <div id="agen" class="container">
             <h2 class="text-xs-center font-weight-bold">Nuestros Servicios</h2>
@@ -184,10 +181,12 @@
                     <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tu negocio. Hacemos conocer tu marca en el momento exacto para conseguir un mayor inpacto.</p>
                     <a href="servicio.php?servicio=3" class="btn btn-secondary hidden-sm-down">Más información</a>
                 </article>
-
             </div>
         </div>
     </main>
+
+
+<!-- Sección de Suscríbete y potencia tu negocio  --> 
 
     <section class="ultimos-proyectos py-1">
         <div id="agen" class="container">
@@ -197,47 +196,49 @@
             <div class="price__table">	
                 <div class="price__element">
                     <p class="price__name">Licencia</p>
-                    <h3 class="price__price font-weight-bold">Gorila Estandar</h3>
+                    <h3 class="price__price font-weight-bold">Gorilla Store</h3>
 
                     <div class="price__items">
-                        <p class="price__features font-weight-bold">$10.000/mes</p>
-                        <p class="price__features ">Una plantilla Personalizable</p>
+                        <p class="price__features font-weight-bold">$60.000/mes</p>
+                        <p class="price__features ">La aplicación de inventarios y ventas perfecta para tu negocio.</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora</a>
+                    <a href="https://api.whatsapp.com/send?phone=573195223935&text=Hola, quiero adquirir la licencia &ldquo; Gorilla Store &ldquo; " style="text-decoration: none" class="price__cta" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>Empieza ahora</a>
                 </div>
 
 
                 <div class="price__element price__element--best">
                     <p class="price__name">Licencia</p>
-                    <h2 class="price__price font-weight-bold">Gorila Premium</h2>
+                    <h2 class="price__price font-weight-bold">King kong Market</h2>
 
                     <div class="price__items">
-                        <p class="price__features font-weight-bold">$30.000/mes</p>
-                        <p class="price__features ">Tres plantillas Personalizables</p>
+                        <p class="price__features font-weight-bold">$60.000/mes</p>
+                        <p class="price__features ">Tu pagina web de ventas al estilo de las mejores del mercado.</p>
                     </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=573195223935&text=Hola, quiero adquirir la licencia &ldquo; King kong Market &ldquo; " class="price__cta" style="text-decoration: none" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>Empieza ahora</a>
                 </div>
 
 
                 <div class="price__element">
                     <p class="price__name">Licencia</p>
-                    <h3 class="price__price font-weight-bold">Gorila Enterprise </h3>
+                    <h3 class="price__price font-weight-bold">Mandril Blog </h3>
 
                     <div class="price__items">
-                        <p class="price__features font-weight-bold">$10.000/mes</p>
-                        <p class="price__features ">Sin límites de personalización</p>
+                        <p class="price__features font-weight-bold">$30.000/mes</p>
+                        <p class="price__features ">Tu carta de presentación sencilla, practica e ideal para tu negocio!!</p>
                     
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora</a>
+                    <a href="https://api.whatsapp.com/send?phone=573195223935&text=Hola, quiero adquirir la licencia &ldquo;  Mandril Blog &ldquo; " style="text-decoration: none" class="price__cta" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>Empieza ahora</a>
                 </div>
-
-
             </div>
     </section>
 
+ <!-- Sección de Preguntas frecuentes -->    
 
     <section class="questions_container">
         
@@ -283,16 +284,17 @@
                    <li>Cuando la dirección y/o teléfono de contacto estén erróneos o incompletos.</li>
                    <li>Cuando no haya moradores en la dirección ingresada al momento de la entrega, en casos de fuerza mayor <span style="padding: 1.4rem;">(paros, derrumbes en las vías, catástrofes naturales), y cuando se haya producido una reprogramación</span><br><span style="padding: 1.6rem;"> automática del envío.</span></li>
                 </div>
-            </details>
+               </details>
               </div>
         </section>
 
+<!-- Sección de Gorilla Store -->   
 
     <section class="ultimos-proyectos py-1">
         <div  class="container">
           <div class="faq-container">
-            <h2 >Mandril Inventarios</h2>
-            <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
+            <h2 >Gorilla Store</h2>
+            <p class="datop"> Lleva los inventarios de tu negocio, realiza ventas, facturación, consulta de reportes, vende por internet a un clic, haz el rastreo de las guías y más, todo esto con tu aplicación de Gorilla Store.</p>
             </div>
         
             <div class="owl-carousel slide-one-item">
@@ -305,11 +307,10 @@
                     <div class="tex2">
                     <h3>Gestión de Productos</h3>
                     <p>&ldquo; Permite gestionar el invetario de los productos, sus precios y estados, ayudando con el control de las entradas y salidas de tu negocio. &rdquo;</p>
-                    </div>
-                    
+                    </div>  
                 </div>
            </div>
-             <!-- .item -->
+            
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
                     <img class="imag" src="images/gestiondeusuarios.png" alt="">
@@ -320,7 +321,7 @@
                     <p>&ldquo; Permite administrar los usuarios y roles del sistema, en el cual posibilita la creación modificación y eliminación de dichos usuarios y roles.&rdquo;</p>
                 </div>
            </div>
-           </div>  <!-- .item -->
+           </div>
            
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
@@ -332,7 +333,7 @@
                     <p>&ldquo; Es un tablero que permite realizar el seguimiento a cada uno de los productos enviados, desde el método de envio hasta la forma de pago, además permite realizar el rastreo del paquete con la trasportadora.&rdquo;</p>
                 </div>
            </div>
-           </div>  <!-- .item -->
+           </div>  
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
@@ -344,7 +345,7 @@
                     <p>&ldquo; Permite exponer los productos que se cargan al portal, con el objetivo de visualizar de primera mano cómo se reflejaran los productos en el Marketplace.&rdquo;</p>
                 </div>
            </div> 
-           </div> <!-- .item -->
+           </div>
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
@@ -356,21 +357,21 @@
                     <p>&ldquo; Permite generar la facturación de los pedidos despachados y de las cotizaciones que puedan realizar los clientes.&rdquo;</p>
                 </div>
            </div> 
-           </div> <!-- .item -->
-
-     
+           </div> 
         </div>
     </section>
+
+
+<!-- Sección de King kong Market -->  
+
 
     <section class="ultimos-proyectos py-1">
         <div  class="container">
           <div class="faq-container">
-            <h2 >Gorila Marcket</h2>
-            <p class="datop"> El proyecto de inventarios es fundamental para la administración de los proyectos que se quieren llevar a cabo.</p>
+            <h2 >King kong Market</h2>
+            <p class="datop"> Pon tus productos en la web de una manera muy sencilla, con un estilo profesional y atractivo para tus clientes, administra las promociones y analiza tus ventas, vende con cualquier medio de pago, usa todo un ecosistema de ventas para tu negocio.!!.</p>
             </div>
-        
             <div class="owl-carousel slide-one-item">
-
             <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
                 <img class="imag" src="./images/market1.png" alt="">
@@ -378,11 +379,10 @@
                 <div class="tex">
                 <div class="tex2">
                     <h3>Gestión de Productos</h3>
-                    <p>&ldquo; Permite gestionar el invetario de los productos, sus precios y estados, ayudando con el control de las entradas y salidas de tu negocio. &rdquo;</p>
+                    <p>&ldquo; King Kong Market, la mejor plataforma web de ventas para tu negocio, lleva el inventario de tus productos, haz facturas a tus clientes, ofrece múltiples tipos de pago, crea promociones y lo mejor de todo un diseño perfecto para ti y tus clientes. &rdquo;</p>
                 </div>
            </div>
            </div>
-             <!-- .item -->
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
                     <img class="imag" src="images/market2.png" alt="">
@@ -390,11 +390,10 @@
                 <div class="tex">
                 <div class="tex2">
                     <h3>Gestión de Usuarios</h3>
-                    <p>&ldquo; Permite administrar los usuarios y roles del sistema, en el cual posibilita la creación modificación y eliminación de dichos usuarios y roles.&rdquo;</p>
+                    <p>&ldquo; Gestiona los usuarios de tu negocio con posibilidad de varios perfiles que podrás administrar para la facilidad de tus procesos operativos.&rdquo;</p>
                 </div>
            </div> 
-           </div> <!-- .item -->
-           
+           </div> 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
                     <img class="imag" src="images/market3.png" alt="">
@@ -402,10 +401,10 @@
                 <div class="tex">
                 <div class="tex2">
                     <h3>Gestión de Pedidos Enviados</h3>
-                    <p>&ldquo; Es un tablero que permite realizar el seguimiento a cada uno de los productos enviados, desde el método de envio hasta la forma de pago, además permite realizar el rastreo del paquete con la trasportadora.&rdquo;</p>
+                    <p>&ldquo; Gestión de pedidos enviados te brinda la posibilidad de seguimiento a tus ventas pedidos a domicilio, gestiona y administra desde cualquier lugar que prefieras.&rdquo;</p>
                 </div>
            </div>
-           </div>  <!-- .item -->
+           </div> 
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
@@ -414,10 +413,10 @@
                 <div class="tex">
                 <div class="tex2">
                     <h3>Gestión de Catálogo de Productos</h3>
-                    <p>&ldquo; Permite exponer los productos que se cargan al portal, con el objetivo de visualizar de primera mano cómo se reflejaran los productos en el Marketplace.&rdquo;</p>
+                    <p>&ldquo; La aplicación cuenta con un catálogo de productos que te permitirá mostrar lo que vendes de una forma llamativa y profesional.&rdquo;</p>
                 </div>
            </div>
-           </div>  <!-- .item -->
+           </div> 
 
            <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="boxx" >
@@ -426,12 +425,10 @@
                 <div class="tex">
                 <div class="tex2">
                     <h3>Gestión de Facturación</h3>
-                    <p>&ldquo; Permite generar la facturación de los pedidos despachados y de las cotizaciones que puedan realizar los clientes.&rdquo;</p>
+                    <p>&ldquo; Facturación para tu negocio de una forma rápida y profesional para tu clientes y para llevar el control de las ventas realizadas.&rdquo;</p>
                 </div>
            </div>
-           </div>  <!-- .item -->
-
-     
+           </div> 
         </div>
     </section>
    <br>

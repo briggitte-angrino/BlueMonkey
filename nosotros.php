@@ -18,15 +18,14 @@ require_once("header.php");
                           <div class="col-md-4 ml-md-auto">
                                             
                                             <h2 >Monkey <br />Dreams</h2>
-                                            <p>Transformar tu futuro de lo posible a lo extraordinario.</p>
-                                            
+                                            <p>Transformar tu futuro de lo posible a lo extraordinario.</p>             
                         </div>
-            
-                       
                  </div>
  </div>
-
-
+<br>
+<br>
+<br>
+<br>
     <?php
 require_once("footer.php");
 

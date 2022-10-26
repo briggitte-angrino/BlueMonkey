@@ -21,8 +21,8 @@
                        
 
             <div class="heading">
-               <h2>Blue Monkey</h2>
-               <p>technologies</p>
+               <h2>King Monkey</h2>
+        
             </div>
 
             
@@ -100,7 +100,7 @@
 
    <footer>
       <p>
-         Creado por: <a href="./index.php" target="_blank">Blue Monkey</a>
+         Creado por: <a href="./index.php" target="_blank">King Monkey</a>
       </p>
    </footer>
 
